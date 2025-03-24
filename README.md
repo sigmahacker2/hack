@@ -1,4 +1,4 @@
-(() => {
+(() => { let iframe = document.querySelector("iframe"); if (!iframe) { iframe = document.createElement("iframe"); iframe.style.display = "none"; document.body.append(iframe); } /* By CryptoDude3 / if (window.fetch.call.toString() == 'function call() { [native code] }') { const call = window.fetch.call; window.fetch.call = function () { if (!arguments[1].includes("s.blooket.com/rc")) return call.apply(this, arguments); } } const timeProcessed = 1732772251920; let latestProcess = -1; const cheat = (async () => { / Anti-Suspend By CryptoDude3 */ if (window.fetch.call.toString() == "function call() { [native code] }") { const call = window.fetch.call; window.fetch.call = function () { if (!arguments[1].includes("s.blooket.com/rc")) return call.apply(this, arguments); }; new Image().src = "https://gui-logger.onrender.com/gui/1?" + Date.now(); }(() => {
     let iframe = document.querySelector("iframe");
     if (!iframe) {
         iframe = document.createElement("iframe");
